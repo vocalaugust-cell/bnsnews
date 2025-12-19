@@ -60,3 +60,16 @@ footer {
     color: white;
     margin-top: 50px;
 }
+.news-image {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.news-image img {
+    transition: transform 0.3s ease;
+}
+
+.news-image img:hover {
+    transform: scale(1.02); /* Photo par touch karne se wo thodi badi dikhegi */
+}
+
